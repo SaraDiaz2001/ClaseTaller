@@ -1,0 +1,30 @@
+Punto 1: Programación Orientada a Objetos
+Objetivo: Evaluar la comprensión y habilidad del estudiante en la implementación de principios de programación orientada a objetos en Python.
+Descripción del ejercicio: Crea una clase en Python llamada Vehiculo, que tenga las siguientes características:
+Atributos privados:marca, modelo y año
+Un método constructor que inicialice estos atributos.
+Métodos públicos para obtener y establecer el valor de cada atributo (getters y setters).
+Un método detalles() que imprima la información del vehículo en el formato: "Marca: [marca], Modelo: [modelo], Año: [año]".
+Tareas:
+Implementa la clase Vehiculo.
+Crea un objeto de esta clase y utiliza los métodos setters para modificar los atributos del vehículo.
+Llama al método detalles() para mostrar la información del vehículo.
+
+Punto 2: Resolución de Problemas Matemáticos
+Objetivo: Evaluar la habilidad del estudiante para aplicar funciones y estructuras de control en Python para resolver problemas matemáticos.
+Descripción del ejercicio: Escribe una función en Python llamada suma_primos que reciba un número entero n y devuelva la suma de todos los números primos menores o iguales a n.
+Tareas:
+Define la funcion suma_primos. 
+Implementa dentro de la función un método para verificar si un número es primo.
+Utiliza un bucle para sumar todos los números primos menores o iguales a n.
+Prueba la función con el valor n=30y muestra el resultado.
+
+Punto 3: Trabajar con un API
+Objetivo: Evaluar la habilidad del estudiante para interactuar con APIs externas utilizando Python.
+Descripción del ejercicio: Utiliza la API pública JSONPlaceholder (https://jsonplaceholder.typicode.com/) para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar).
+Tareas:
+Utiliza la biblioteca requests para obtener todos los usuarios (GET).
+Elige un usuario y actualiza su información (PUT o PATCH).
+Crea un nuevo post para el usuario seleccionado (POST).
+Elimina el post creado (DELETE).
+Documenta cada paso y asegúrate de manejar posibles errores en las solicitudes.
